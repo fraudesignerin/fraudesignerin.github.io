@@ -1,0 +1,66 @@
+/*
+selector {
+    eigenschaft: wert;
+}
+*/
+
+/*
+Erleichterung für responsives Webdesign
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    color: #007a81;
+    margin: 100px 50px;
+
+}
+
+/* Textabsatz soll gelbe Schrift auf blauem Hintergrund haben */
+
+p{
+    color: rgb(255, 252, 200);
+    background-color: rgb(0, 42, 105);
+    margin: 0px;
+    width: 100%;
+    padding: 50px;
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+    border-bottom: none;
+}
+#last-child{
+    border-bottom: 2px solid black;
+}
+
+/* ID in HTML wird zu einer Raute in CSS */
+#eins{
+    color: rgb(206, 255, 212);
+    background-color: rgb(51, 86, 0);
+}
+
+/* Eine Klasse in HTML wird zu einem . (Punkt) in CSS */
+
+.zebra{
+    background-color: rgb(143, 4, 4);
+    color: cornsilk;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+img{
+    margin-top: 200px;
+    width: 100%;
+    display: block;
+}
+
+.center{
+    margin: auto;
+    max-width: 900px;
+    padding: 0 1rem;
+}
